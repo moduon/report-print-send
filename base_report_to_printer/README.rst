@@ -163,6 +163,11 @@ Contributors
 * Akim Juillerat <akim.juillerat@camptocamp.com>
 * Jacques-Etienne Baudoux (BCIM) <je@bcim.be>
 
+* `Tecnativa <https://www.tecnativa.com>`_:
+
+  * Sergio Teruel
+  * David Vidal
+
 Maintainers
 ~~~~~~~~~~~
 
