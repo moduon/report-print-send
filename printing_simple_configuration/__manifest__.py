@@ -5,13 +5,13 @@
     "category": "Generic Modules/Base",
     "website": "https://github.com/OCA/report-print-send",
     "author": "Akretion,Odoo Community Association (OCA)",
-    "maintainer": [
+    "maintainers": [
         "bealdav",
     ],
     "maturity": "Alpha",
     "license": "AGPL-3",
     "depends": [
-        "stock",
+        "sale_stock",
     ],
     "data": [
         "views/company.xml",
