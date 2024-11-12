@@ -57,8 +57,7 @@ msgstr "Archivado"
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_form
 msgid "Are you sure to want to cancel all jobs of this printer?"
-msgstr ""
-"¿Estás seguro que quieres cancelar todos los trabajos de la impresora?"
+msgstr "¿Estás seguro que quieres cancelar todos los trabajos de la impresora?"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_form
@@ -313,8 +312,8 @@ msgstr "Error en el documento"
 #: code:addons/base_report_to_printer/models/printing_server.py:0
 #, python-format
 msgid ""
-"Failed to connect to the CUPS server on %(address)s:%(port)s. Check that "
-"the CUPS server is running and that you can reach it from the Odoo server."
+"Failed to connect to the CUPS server on %(address)s:%(port)s. Check that the "
+"CUPS server is running and that you can reach it from the Odoo server."
 msgstr ""
 "Ha fallado la conexión al servidor CUPS en %(address)s:%(port)s. Compruebe "
 "que el servidor CUPS está en funcionamiento y que el servidor de Odoo tiene "
@@ -860,8 +859,7 @@ msgstr "Este campo permite configurar acción e impresora a nivel de usuario"
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printer_update_wizard
 msgid ""
-"This process will create all missing printers from the current CUPS server."
-"\""
+"This process will create all missing printers from the current CUPS server.\""
 msgstr ""
 "Este proceso creará todas las impresoras que falten desde el servidor CUPS "
 "actual"
