@@ -1,23 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * base_report_to_printer
+# 	* base_report_to_printer
 #
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-19 03:38+0000\n"
-"PO-Revision-Date: 2023-10-16 19:36+0000\n"
-"Last-Translator: Ivorra78 <informatica@totmaterial.es>\n"
-"Language-Team: Spanish (https://www.transifex.com/oca/teams/23907/es/)\n"
+"POT-Creation-Date: 2024-11-11 16:26+0000\n"
+"PO-Revision-Date: 2024-11-11 17:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields.selection,name:base_report_to_printer.selection__printing_job__job_state__aborted
@@ -59,7 +57,8 @@ msgstr "Archivado"
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_form
 msgid "Are you sure to want to cancel all jobs of this printer?"
-msgstr "¿Estás seguro que quieres cancelar todos los trabajos de la impresora?"
+msgstr ""
+"¿Estás seguro que quieres cancelar todos los trabajos de la impresora?"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_printer_view_form
@@ -298,7 +297,7 @@ msgstr "Política de cifrado para conectar al servidor. Vacía por defecto."
 #. module: base_report_to_printer
 #: model:ir.model.fields.selection,name:base_report_to_printer.selection__printing_printer__status__error
 msgid "Error"
-msgstr "Error"
+msgstr ""
 
 #. module: base_report_to_printer
 #: model:ir.model.fields.selection,name:base_report_to_printer.selection__printing_job__job_state_reason__compression-error
@@ -314,8 +313,8 @@ msgstr "Error en el documento"
 #: code:addons/base_report_to_printer/models/printing_server.py:0
 #, python-format
 msgid ""
-"Failed to connect to the CUPS server on %(address)s:%(port)s. Check that the "
-"CUPS server is running and that you can reach it from the Odoo server."
+"Failed to connect to the CUPS server on %(address)s:%(port)s. Check that "
+"the CUPS server is running and that you can reach it from the Odoo server."
 msgstr ""
 "Ha fallado la conexión al servidor CUPS en %(address)s:%(port)s. Compruebe "
 "que el servidor CUPS está en funcionamiento y que el servidor de Odoo tiene "
@@ -379,7 +378,7 @@ msgstr "Retenido por que la impresora está desconectada"
 #: model:ir.model.fields,field_description:base_report_to_printer.field_wizard_print_attachment__id
 #: model:ir.model.fields,field_description:base_report_to_printer.field_wizard_print_attachment_line__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_server__address
@@ -390,6 +389,13 @@ msgstr "Dirección IP o nombre del servidor"
 #: model:ir.model.fields,help:base_report_to_printer.field_printing_server__active
 msgid "If checked, this server is useable."
 msgstr "Si está marcado, el servidor es utilizable."
+
+#. module: base_report_to_printer
+#. openerp-web
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
+#, python-format
+msgid "Issue on"
+msgstr "Incidencia en"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_job_view_form
@@ -480,7 +486,7 @@ msgstr "Modelo"
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__multi_thread
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_server__multi_thread
 msgid "Multi Thread"
-msgstr ""
+msgstr "Multi Hilo"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_action__name
@@ -515,7 +521,7 @@ msgstr "Sin razón"
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printer_update_wizard
 msgid "Ok"
-msgstr "Ok"
+msgstr ""
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_ir_actions_report__printer_tray_id
@@ -564,8 +570,11 @@ msgid "Port of the server."
 msgstr "Puerto del servidor."
 
 #. module: base_report_to_printer
+#. openerp-web
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.act_report_xml_view
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.wizard_print_attachment_form
+#, python-format
 msgid "Print"
 msgstr "Imprimir"
 
@@ -657,7 +666,7 @@ msgstr "Lista de impresoras"
 #: model:ir.ui.menu,name:base_report_to_printer.printing_menu
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.view_users_form
 msgid "Printing"
-msgstr "Impresión"
+msgstr "Imprimiendo"
 
 #. module: base_report_to_printer
 #: model:res.groups,name:base_report_to_printer.printing_group_manager
@@ -727,7 +736,7 @@ msgstr "Informe"
 #. module: base_report_to_printer
 #: model:ir.model,name:base_report_to_printer.model_ir_actions_report
 msgid "Report Action"
-msgstr "Informar Acción"
+msgstr "Acción de informe"
 
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printing_report_xml_action_view_form
@@ -840,8 +849,8 @@ msgstr "El ID del trabajo debe ser único por servidor !"
 #. openerp-web
 #: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
 #, python-format
-msgid "The printer couldn't be reached. Downloading document instead"
-msgstr ""
+msgid "The report"
+msgstr "El informe"
 
 #. module: base_report_to_printer
 #: model:ir.model.fields,help:base_report_to_printer.field_ir_actions_report__printing_action_ids
@@ -851,7 +860,8 @@ msgstr "Este campo permite configurar acción e impresora a nivel de usuario"
 #. module: base_report_to_printer
 #: model_terms:ir.ui.view,arch_db:base_report_to_printer.printer_update_wizard
 msgid ""
-"This process will create all missing printers from the current CUPS server.\""
+"This process will create all missing printers from the current CUPS server."
+"\""
 msgstr ""
 "Este proceso creará todas las impresoras que falten desde el servidor CUPS "
 "actual"
@@ -890,7 +900,7 @@ msgstr "Tipo"
 #. module: base_report_to_printer
 #: model:ir.model.fields,field_description:base_report_to_printer.field_printing_printer__uri
 msgid "URI"
-msgstr "URI"
+msgstr ""
 
 #. module: base_report_to_printer
 #: model:ir.model.fields.selection,name:base_report_to_printer.selection__printing_printer__status__unavailable
@@ -964,36 +974,14 @@ msgid "Wizard"
 msgstr "Asistente"
 
 #. module: base_report_to_printer
+#. openerp-web
+#: code:addons/base_report_to_printer/static/src/js/qweb_action_manager.esm.js:0
+#, python-format
+msgid "couldn't be printed. Click on the button below to download it"
+msgstr "no se ha podido imprimir. Pulsar en el botón para descargarlo"
+
+#. module: base_report_to_printer
 #: code:addons/base_report_to_printer/wizards/print_attachment_report.py:0
 #, python-format
 msgid "{name} ({copies} copies)"
 msgstr "{name} ({copies} copies) :{name} ({copies} copias)"
-
-#, python-format
-#~ msgid "Document sent to the printer %s"
-#~ msgstr "Documento enviado a la impresora %s"
-
-#, python-format
-#~ msgid "Error when sending the document to the printer "
-#~ msgstr "Error enviando el documento a la impresora "
-
-#, python-format
-#~ msgid ""
-#~ "Failed to connect to the CUPS server on %s:%s. Check that the CUPS server "
-#~ "is running and that you can reach it from the Odoo server."
-#~ msgstr ""
-#~ "Ha fallado la conexión al servidor CUPS %s:%s. Comprueba que el servidor "
-#~ "CUPS está funcionando y que el servidor de Odoo puede comunicarse con él."
-
-#~ msgid ""
-#~ "This process will create all missing printers from the current CUPS "
-#~ "server."
-#~ msgstr ""
-#~ "Este proceso creará las impresoras no configurada del servidor CUPS "
-#~ "actual."
-
-#~ msgid "or"
-#~ msgstr "o"
-
-#~ msgid "ir.actions.report"
-#~ msgstr "ir.actions.report"
