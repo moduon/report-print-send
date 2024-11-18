@@ -89,9 +89,8 @@ this will not be displayed by CUPS web interface or in Odoo. To see this
 information, you need to change the configuration of your CUPS server
 and set the JobPrivateValue directive to "none" (or some other list of
 values which does not include "job-name") , and reload the server. See
-cupsd.conf(5)
-<`https://www.cups.org/doc/man-cupsd.conf.html\\> <https://www.cups.org/doc/man-cupsd.conf.html\>>`__
-for details.
+cupsd.conf(5) <https://www.cups.org/doc/man-cupsd.conf.html> for
+details.
 
 Usage
 =====
@@ -111,6 +110,13 @@ Guidelines for use:
 
 When no tray is configured for a report and a user, the default tray
 setup on the CUPS server is used.
+
+Known issues / Roadmap
+======================
+
+-  With threaded printing there's no download fallback when the issue
+   isn't detected by the CUPS Odoo backend. To able to do it, we would
+   need to notify the bus or use web_notify for it.
 
 Changelog
 =========
