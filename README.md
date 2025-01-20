@@ -17,7 +17,11 @@ report-print-send
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[base_report_to_printer](base_report_to_printer/) | 18.0.1.0.0 |  | Report to printer
 
 [//]: # (end addons)
 
